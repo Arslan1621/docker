@@ -8,7 +8,7 @@ RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /
     apt-get update && \
     apt-get install -y --no-install-recommends \
     libmupdf-dev \
-    libmupdf-tools \
+    mupdf-tools \
     fontconfig && \
     rm -rf /var/lib/apt/lists/*
 
